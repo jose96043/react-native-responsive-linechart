@@ -4,7 +4,8 @@ import React, { Component } from "react";
 import { View, PanResponder } from "react-native";
 import memoizeOne from "memoize-one";
 import _ from "lodash";
-import Svg, { Polyline, Rect, Text, Line, Polygon, LinearGradient, Defs, Stop, Circle } from "react-native-svg";
+import SVG from "expo";
+import { Polyline, Rect, Text, Line, Polygon, LinearGradient, Defs, Stop, Circle } from "react-native-svg";
 
 const RenderValuePoint = ({ point, offset, color, radius }) => {
   const dataX = point.x;
